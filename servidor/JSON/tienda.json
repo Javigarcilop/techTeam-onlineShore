@@ -1,0 +1,153 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Equipos de Entrenamiento",
+      "descripcion": "Equipos de gimnasio de alta calidad para entrenamientos en casa o en el gimnasio."
+    },
+    {
+      "id": 2,
+      "nombre": "Accesorios de Gimnasio",
+      "descripcion": "Accesorios para mejorar tu entrenamiento, como guantes, bandas, y rodillos."
+    },
+    {
+      "id": 3,
+      "nombre": "Ropa Deportiva de Gimnasio",
+      "descripcion": "Ropa diseñada específicamente para entrenamientos intensivos en el gimnasio."
+    },
+    {
+      "id": 4,
+      "nombre": "Suplementos de Gimnasio",
+      "descripcion": "Suplementos diseñados para mejorar el rendimiento, la recuperación y la fuerza en el gimnasio."
+    }
+
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Mancuernas de Hierro Fundido",
+      "precio": 49.99,
+      "destacado": true,
+      "id_categoria": 1,
+      "descripcion": "Mancuernas de alta calidad, perfectas para ejercicios de fuerza y musculación en el gimnasio.",
+      "imagenes": [
+        "../../cliente/assets/img/mancuernas_1.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Banco de Pesas Ajustable",
+      "precio": 149.99,
+      "destacado": true,
+      "id_categoria": 1,
+      "descripcion": "Banco de pesas ajustable para entrenamientos de pecho, espalda, y abdominales.",
+      "imagenes": [
+        "../../cliente/assets/img/banco_pesas_1.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Máquina de Cardio Elíptica",
+      "precio": 899.99,
+      "destacado": false,
+      "id_categoria": 1,
+      "descripcion": "Máquina elíptica para un entrenamiento cardiovascular de bajo impacto, ideal para el gimnasio.",
+      "imagenes": [
+        "../../cliente/assets/img/maquina_cardio_1.jpg"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Guantes de Gimnasio con Muñeca",
+      "precio": 24.99,
+      "destacado": false,
+      "id_categoria": 2,
+      "descripcion": "Guantes de entrenamiento para proteger tus manos y muñecas durante levantamientos pesados.",
+      "imagenes": [
+        "../../cliente/assets/img/guantes_1.jpg"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Rodillo de Espuma para Recuperación Muscular",
+      "precio": 19.99,
+      "destacado": true,
+      "id_categoria": 2,
+      "descripcion": "Rodillo de espuma para masajes y recuperación muscular después de entrenamientos intensos.",
+      "imagenes": [
+        "../../cliente/assets/img/rodillo_1.jpg"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Pantalón de Compresión para Gimnasio",
+      "precio": 39.99,
+      "destacado": true,
+      "id_categoria": 3,
+      "descripcion": "Pantalón de compresión para mejorar el flujo sanguíneo durante los entrenamientos intensivos.",
+      "imagenes": [
+        "../../cliente/assets/img/pantalon_compresion_1.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "nombre": "Camiseta Técnica de Secado Rápido",
+      "precio": 29.99,
+      "destacado": false,
+      "id_categoria": 3,
+      "descripcion": "Camiseta ligera y transpirable para entrenamientos de alto rendimiento en el gimnasio.",
+      "imagenes": [
+        "../../cliente/assets/img/camiseta_tecnica_1.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "nombre": "Proteína Whey Premium 2kg",
+      "precio": 59.99,
+      "destacado": true,
+      "id_categoria": 4,
+      "descripcion": "Proteína de suero de leche, ideal para la recuperación muscular y el crecimiento después del entrenamiento.",
+      "imagenes": [
+        "../../cliente/assets/img/proteina_whey_1.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "nombre": "Creatina Monohidratada 500g",
+      "precio": 19.99,
+      "destacado": false,
+      "id_categoria": 4,
+      "descripcion": "Creatina monohidratada para mejorar la fuerza y el rendimiento en ejercicios de alta intensidad.",
+      "imagenes": [
+        "../../cliente/assets/img/creatina_1.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "nombre": "Reloj Deportivo con Monitoreo de Frecuencia Cardíaca",
+      "precio": 119.99,
+      "destacado": true,
+      "id_categoria": 5,
+      "descripcion": "Reloj deportivo con monitor de frecuencia cardíaca y GPS integrado para monitorear tu rendimiento.",
+      "imagenes": [
+        "../../cliente/assets/img/reloj_deportivo_1.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "nombre": "Pulsera Fitness con Contador de Pasos",
+      "precio": 49.99,
+      "destacado": false,
+      "id_categoria": 5,
+      "descripcion": "Pulsera inteligente que cuenta tus pasos, monitorea tu actividad y calidad del sueño.",
+      "imagenes": [
+        "../../cliente/assets/img/pulsera_fitness_1.jpg"
+      ]
+    }
+  ]
+}
+
+
+
+  
+  
