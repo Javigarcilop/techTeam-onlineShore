@@ -1,0 +1,121 @@
+/* General */
+body {
+    background-color: #f8f9fa; /* Fondo suave */
+    font-family: 'Arial', sans-serif; /* Tipografía limpia */
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #ff7300 !important; /* Naranja corporativo */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffe0b2 !important;
+}
+
+/* Título principal */
+h2 {
+    color: #fd7e14; /* Naranja para el título */
+    font-weight: bold;
+}
+
+/* Contenedor de categorías */
+#categorias-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px; /* Espaciado entre tarjetas */
+}
+
+/* Tarjetas de categorías */
+#categorias-lista .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%; /* Adaptable al ancho disponible */
+    max-width: 300px; /* Limitar el tamaño máximo */
+    border: 1px solid #e6e6e6;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegura que el contenido no sobresalga */
+}
+
+#categorias-lista .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen de las tarjetas */
+#categorias-lista .card-img-top {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Título dentro de las tarjetas */
+#categorias-lista .card-body {
+    text-align: center;
+    padding: 16px;
+}
+
+#categorias-lista .card-body h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343a40;
+    margin: 0;
+}
+
+/* Botones dentro de las tarjetas */
+#categorias-lista .btn {
+    border: 2px solid #ff7300;
+    color: #ff7300;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+    display: inline-block;
+    text-align: center;
+}
+
+#categorias-lista .btn:hover {
+    background-color: #ff7300;
+    color: #ffffff;
+}
+
+/* Footer de las tarjetas */
+#categorias-lista .card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #categorias-lista {
+        gap: 10px;
+    }
+
+    #categorias-lista .card {
+        max-width: 100%; /* Tomar todo el ancho en pantallas pequeñas */
+    }
+}
+
+
+

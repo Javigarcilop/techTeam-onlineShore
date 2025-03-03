@@ -1,0 +1,177 @@
+    /* Fondo y colores generales */
+    body {
+        background-color: #fdf8f0;
+        color: #333;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Barra de navegación */
+    .navbar {
+        background-color: #ff7300 !important;
+        /* Naranja corporativo */
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        color: #ffffff !important;
+    }
+
+    .navbar-nav .nav-link {
+        color: #ffffff !important;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #ffe0b2 !important;
+    }
+
+    /* Estilo para el icono del carrito */
+    #cart-icon {
+        font-size: 1.5rem;
+        color: #ffffff;
+        position: relative;
+        cursor: pointer;
+        top: 8px;
+    }
+
+    /* Contador de productos en el carrito */
+    #cart-count {
+        font-size: 0.75rem;
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        background: #d32f2f;
+        color: #ffffff;
+        padding: 3px 7px;
+        border-radius: 50%;
+    }
+
+    /* Hover para el icono del carrito */
+    .cart-icon:hover {
+        color: #ffe0b2;
+    }
+
+    /* Contenedor de productos en el carrito */
+    #carrito-lista .card-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        width: 100%;
+    }
+
+    /* Título */
+    .card h5 {
+        font-size: 1rem;
+        font-weight: bold;
+        margin: 0;
+        color: #333;
+        flex-basis: 40%;
+        text-align: left;
+    }
+
+    /* Precio */
+    .card p {
+        font-size: 0.85rem;
+        color: #666;
+        margin: 0;
+        flex-basis: 20%;
+        text-align: center;
+    }
+
+    /* Botón de eliminación */
+    .card .btn-danger {
+        background-color: #ff7300;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        flex-basis: 20%;
+        text-align: center;
+    }
+
+    .card .btn-danger:hover {
+        background-color: #e56700;
+    }
+
+    /* Sección de total y botón de compra */
+    .text-center h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: #333;
+        margin-top: 20px;
+    }
+
+    .text-center button {
+        background-color: #ff7300;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        transition: background-color 0.3s;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+
+    .text-center button:hover {
+        background-color: #e56700;
+    }
+
+    /* Estilos para el botón de Cerrar sesión */
+    .btn-corporate {
+        color: #ffffff;
+        /* Texto de color naranja */
+        border: 2px solid #ff7300;
+        /* Borde de color naranja */
+        padding: 10px 20px;
+        font-size: 1rem;
+        font-weight: bold;
+        border-radius: 25px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-corporate:hover {
+        background-color: #e56700;
+        /* Un color más suave para el fondo */
+        color: #ffffff;
+        /* Mantener el texto blanco */
+    }
+
+
+    /* Responsividad */
+    @media (max-width: 768px) {
+        .container {
+            padding: 15px;
+        }
+
+        .card {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        .card-body {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .card .quantity-controls {
+            justify-content: flex-start;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #ff7300;
+        }
+
+        .navbar-collapse {
+            text-align: center;
+        }
+
+        .navbar-nav .nav-item {
+            margin: 0 10px;
+        }
+    }
